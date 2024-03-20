@@ -1,4 +1,5 @@
-pplugins {
+
+plugins {
     id 'java'
 }
 
@@ -18,7 +19,7 @@ repositories {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.6.1'
     // библиотека com.codeborne:selenide используется при построении проекта с использованием Selenide
-    testImplementation 'org.seleniumhq.selenium:selenium-java:4.18.1'
+    testImplementation 'com.codeborne:selenide:5.19.0'
     testImplementation("io.github.bonigarcia:webdrivermanager:5.7.0")
 
     // при реализации проекте с использованием Selenium вместо библиотеки com.codeborne:selenide подключаются
